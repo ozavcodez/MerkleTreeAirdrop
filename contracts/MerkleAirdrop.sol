@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 
 
-contract Airdrop {
+contract MerkleAirdrop {
     address public owner;
     IERC20 public immutable tokenAddress;
     bytes32 public merkleRoot;
